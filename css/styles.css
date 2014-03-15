@@ -1,0 +1,159 @@
+body {
+    font-family: "Myriad Pro";
+    font-size: 0.8em;
+    color: rgba(102, 102, 102, 1);
+}
+
+#apDiv1 {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    width: 610px;
+    height: 731px;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#window {
+    width: 275px;
+    top: 0px;
+    position: fixed;
+    right: 2%;
+    padding-left: 0px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: rgba(102, 102, 102, .4);
+}
+
+#title {
+    height: 30px;
+    width: 97%;
+    top: 500px;
+    background-color: #0000FF;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Myriad Pro";
+    font-size: 2em;
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    background-image: url(glassbg.jpg);
+    z-index: 5px;
+}
+
+#open {
+    width: 25px;
+    height: 20px;
+    float: right;
+    cursor: pointer;
+    padding-bottom: 6px;
+    background-image: url(button.png);
+}
+
+#box {
+    height: 405px;
+    top: 600px;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    font-size: 14px;
+}
+
+.message .hr {
+    color: rgba(102, 102, 102, .3)
+
+}
+
+#notification {
+    background: rgba(255, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.chat {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.chat .messages {
+    border: 1px solid #ccc;
+    width: 255px;
+    height: 250px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.chat .messages a {
+    color: rgba(102, 102, 102, 1);
+    text-decoration: underline;
+}
+
+.chat .message p {
+    margin: 5px 0;
+
+}
+
+.hidden-submit {
+    border: 0 none;
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.onscreen {
+    width: 250px;
+    height: 60px;
+    padding: 4px;
+}
+
+.test {
+    width: 265px;
+    height: 180px;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.test .message {
+    height: 75px;
+    width: 200px;
+    border: 2px solid rgba(204, 204, 204, 1);
+    position: relative;
+}
+
+#window #title #open {
+    font-size: 1.5em;
+}
+
+#window #title #open {
+    font-family: "Myriad Pro";
+    font-size: 28px;
+    text-align: center;
+}
+
+.test #submit {
+
+}
+
+.test #display {
+    width: 100px;
+}
+
+.notification {
+    width: 100px;
+    height: 100px;
+    border: 2px;
+    border: thick double #999;
+    position: absolute;
+    left: 394px;
+    top: 136px;
+}
